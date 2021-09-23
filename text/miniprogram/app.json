@@ -1,0 +1,20 @@
+{
+  "pages": [
+    
+    "pages/Welcome/Welcome",
+    "pages/picker/picker",
+    "pages/canvas/canvas",
+    "pages/test1/test1",
+    "pages/test2/test2",
+    "pages/Sign in/Sign in"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

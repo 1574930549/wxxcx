@@ -1,0 +1,9 @@
+<!--miniprogram/pages/index1/index1.wxml-->
+<view class="all">
+<view align="center">
+        <text size="5" face="黑体" color="blue">圈小猫</text>
+
+        <view id="catch-the-cat"></view>
+        
+    </view>
+</view>

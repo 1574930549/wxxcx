@@ -1,0 +1,15 @@
+<!--miniprogram/pages/zhuye/zhuye.wxml-->
+<view class="sys">
+  <button bindtap='getScancode' type="primary" size="mini">扫一扫</button>
+</view>
+<view wx:if="{{result !=''}}">
+    <view>扫码的内容:{{result}}</view>
+</view>
+<view class="ss">
+  <view class="input">
+    <input placeholder="搜索" confirm-type="search" focus="true" type='text'/>
+  </view>
+  <view class="button">
+    <button type="primary" size="mini">搜索</button>
+  </view>
+</view>

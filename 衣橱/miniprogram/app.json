@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/Welcome/Welcome",
+    "pages/index1/index1",
+    "pages/index2/index2",
+    "pages/index3/index3",
+    "pages/clothes1/clothes1"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_active.png",
+        "pagePath": "pages/index1/index1",
+        "text": "主页"
+      },
+      {
+        "iconPath": "images/cloud.png",
+        "selectedIconPath": "images/cloud_active.png",
+        "pagePath": "pages/index2/index2",
+        "text": "橱柜"
+      },
+      {
+        "iconPath": "images/cloud.png",
+        "selectedIconPath": "images/cloud_active.png",
+        "pagePath": "pages/index3/index3",
+        "text": "商城"
+      }
+    ]
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

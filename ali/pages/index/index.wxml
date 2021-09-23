@@ -1,0 +1,18 @@
+<!-- <view class='container'>
+  <input placeholder='请输入你的ECS实例ID' class='search-input' value='{{ inputValue }}' bindblur='bindblur'></input>
+  <view class='resultView' hidden='{{ showView }}'>
+    <text class='result'>CPU数：{{queryResult.Cpu}} 核</text>
+    <text class='result'>内存大小：{{queryResult.Memory}} MB</text>
+    <text class='result'>操作系统：{{queryResult.OSName}}</text>
+    <text class='result'>实例规格：{{queryResult.InstanceType}}</text>
+    <text class='result'>公网IP地址：{{queryResult.IpAddress}}</text>
+    <text class='result'>网络带宽：{{queryResult.InternetMaxBandwidthOut}} MB/s</text>
+    <text class='result'>在线状态：{{queryResult.instanceStatus == 'Running' ? '运行中':'已关机'}}</text>
+  </view>
+</view> -->
+<view class="radar"></view>
+<view><progress class="jiandu" percent="100" stroke-width="12" show-info color="#20ff4d" active/></view>
+<view class="qiandao">
+  (logo)
+</view>
+

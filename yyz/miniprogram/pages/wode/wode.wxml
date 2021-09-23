@@ -1,0 +1,26 @@
+<view>
+  <view class="shezhi">
+    <button type="primary" size="mini">设置</button>
+  </view>
+  <view class="userinfo">
+    <view class="userinfo-avatar">
+      <open-data  type="userAvatarUrl"></open-data>
+    </view>
+    <open-data type="userNickName"></open-data>
+  </view>
+  <view class="fukuan">
+    <button type="primary" size="mini">待付款</button>
+    <button type="primary" size="mini">已付款</button>
+    <button type="primary" size="mini">已完成</button>
+  </view>
+  <view>
+    <view>
+      工具与服务
+    </view>
+    <view>
+      <button type="primary" >客服服务</button>
+      <button type="primary" >药品搭配</button>
+      <button type="primary" >寻问医生</button>
+    </view>
+  </view>
+</view>

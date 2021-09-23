@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/zhuye/zhuye",
+    "pages/fenlei/fenlei",
+    "pages/gouwuche/gouwuche",
+    "pages/wode/wode",
+    "pages/yyz/yyz"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "iconPath": "images/首页 (1).png",
+        "selectedIconPath": "images/首页.png",
+        "pagePath": "pages/zhuye/zhuye",
+        "text": "主页"
+      },
+      {
+        "iconPath": "images/类目 品类 分类 类别 (1).png",
+        "selectedIconPath": "images/类目 品类 分类 类别.png",
+        "pagePath": "pages/fenlei/fenlei",
+        "text": "分类"
+      },
+      {
+        "iconPath": "images/购物车 (1).png",
+        "selectedIconPath": "images/购物车.png",
+        "pagePath": "pages/gouwuche/gouwuche",
+        "text": "购物车"
+      },
+      {
+        "iconPath": "images/我的 (1).png",
+        "selectedIconPath": "images/我的.png",
+        "pagePath": "pages/wode/wode",
+        "text": "我的"
+      }
+    ]
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "天下安药房",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

@@ -1,0 +1,23 @@
+/* miniprogram/pages/zhuye/zhuye.wxss */
+.sys{
+  text-align:right;
+}
+.ss{
+  /* display: flex; */
+  /*同一行显示*/
+  text-align: center; 
+}
+.input{
+  /*max-width:1000px;*/
+  /* width:300px; */
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-style:solid;
+  
+}
+.button{
+  /* width:100px;
+  vertical-align: right; */
+  float:right;
+  justify-content: right;
+}

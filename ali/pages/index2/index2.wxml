@@ -1,0 +1,6 @@
+<!--pages/index2/index2.wxml-->
+<text>这是橱柜</text>
+<view class="chugui">
+  <image bindtap="to" data-i="1" src="../../images/01.jpg"></image>
+  <button type="primary">删除</button>
+</view>

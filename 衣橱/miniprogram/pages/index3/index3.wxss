@@ -1,0 +1,4 @@
+/* miniprogram/pages/index3/index3.wxss */
+.clothes{
+  display: flex;
+}

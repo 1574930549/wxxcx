@@ -1,0 +1,6 @@
+<view class="loading-warp">
+    <canvas class="canvas" canvas-id="canvasCircle"></canvas>
+    <canvas class="canvas-mask" canvas-id="canvasRing"></canvas>
+    <view class="rate">{{step}}%</view>
+</view>
+<view class="loading-tips">{{tips}}</view>

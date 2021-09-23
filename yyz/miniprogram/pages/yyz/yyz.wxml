@@ -1,0 +1,5 @@
+<!--miniprogram/pages/yyz/yyz.wxml-->
+<view class="yyz">
+  <text>杨禹峥大傻子</text>
+</view>
+

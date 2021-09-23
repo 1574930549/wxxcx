@@ -1,0 +1,14 @@
+<view class="viewlist">
+          <view   class="viewsort viewlistone"    bindtap="tigger" data-num="1">
+            {{navigationList[0]}}
+              <image src="../images/footer1.png" mode="" class="" id="" style="width:30rpx;height:30rpx;"></image> 
+          </view>
+          <view class="viewsort viewlistone" bindtap="tigger" data-num="2">
+            {{navigationList[1]}}
+              <image src="../images/footer1.png" mode="" class="" id="" style="width:30rpx;height:30rpx;"></image> 
+          </view>
+          <view   class="viewsort viewlistone" bindtap="tigger" data-num="3">
+            {{navigationList[2]}}
+              <image src="../images/footer1.png" mode="" class="" id="" style="width:30rpx;height:30rpx;"></image> 
+          </view>
+</view>

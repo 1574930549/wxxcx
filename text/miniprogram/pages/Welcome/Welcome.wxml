@@ -1,0 +1,16 @@
+
+<view class="radar"></view>
+
+
+<view><progress class="jiandu" percent="100" stroke-width="12" show-info color="#20ff4d" active/></view>
+
+
+<view class="qiandao">
+  签到(logo)
+</view>
+
+
+<!-- <view>
+  <cover-image src="../Welcome/签到.png" class="img"></cover-image>
+</view> -->
+

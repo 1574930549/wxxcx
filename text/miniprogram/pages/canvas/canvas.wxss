@@ -1,0 +1,38 @@
+/* loading start */
+.loading-warp {
+  z-index: 0;
+  position: relative;
+  margin: 100px auto 20px;
+  width: 200px;
+  height: 200px;
+}
+.canvas {
+  z-index: 1;
+  width: 200px;
+  height: 200px;
+}
+.canvas-mask {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+}
+.rate {
+  z-index: 1;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: blake;
+  font-size: 40rpx;
+}
+.loading-tips {
+  text-align: center;
+  font-size: 40rpx;
+  font-weight: 400;
+  color: #fff;
+}
+/* loading end */

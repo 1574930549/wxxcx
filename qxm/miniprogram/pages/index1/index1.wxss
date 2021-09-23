@@ -1,0 +1,8 @@
+/* miniprogram/pages/index1/index1.wxss */
+.all{
+    color: #ffffff;
+    FONT-FAMILY: Comic Sans MS;
+    background-image: "../index1/bg.jpg";
+    background-repeat: repeat;
+    background-color: #D9D9D9;
+}

@@ -1,0 +1,8 @@
+<template name="foot">
+    <view class="footerview">  
+    <text ></text>
+    </view>
+    <view class="footerviewwebsite">  
+    <text style>www.zlh0812.cn</text>
+    </view>
+</template>

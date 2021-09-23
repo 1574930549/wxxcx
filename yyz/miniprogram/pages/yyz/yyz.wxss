@@ -1,0 +1,4 @@
+/* miniprogram/pages/yyz/yyz.wxss */
+.yyz{
+  color: rgb(55, 4, 241);
+}

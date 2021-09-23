@@ -1,0 +1,16 @@
+<!--miniprogram/pages/index3/index3.wxml-->
+<text>这是商城</text>
+<view>
+  <view class="clothes">
+    <image bindtap="to" data-i="1" src="../../images/01.jpg"></image>
+    <image bindtap="to" data-i="2" src="../../images/02.jpg"></image>
+  </view>
+</view>
+<view>
+  <view class="clothes">
+    <image bindtap="to" data-i="3" src="../../images/03.jpg"></image>
+    <image bindtap="to" data-i="4" src="../../images/04.jpg"></image>
+  </view>
+  <view>
+  </view>
+</view>

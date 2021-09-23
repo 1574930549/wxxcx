@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "coma":"../../components/coma/coma"
+  }
+}

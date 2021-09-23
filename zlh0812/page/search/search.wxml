@@ -1,0 +1,37 @@
+<view class="data-v-a007e1a8">
+	<view class="cu-bar search bg-white data-v-a007e1a8">
+        <view class="search-form  round data-v-a007e1a8">
+            <text class="cuIcon-search data-v-a007e1a8"></text>
+            <input confirm-type="search" placeholder="在这里输入搜索内容!" class="data-v-a007e1a8"  bindinput="searchinput" />
+            <!-- <input class="search_content" bindtap="showsearch" bindinput="searchinput" bindconfirm="searchBtn" placeholder="搜索关键字..."></input> -->
+        </view>
+		<view class="action data-v-a007e1a8">
+            <button  class="cu-btn bg-green shadow-blur round data-v-a007e1a8" bindtap="searchBtne">搜索</button>
+        </view>
+	</view>
+	<block wx:if="{{allcatslist.length>0}}">
+		<view class="s-circle radius bg-white data-v-a007e1a8">
+			<view class="header data-v-a007e1a8">
+                <text class="cuIcon-title padding-right-sm text-blue data-v-a007e1a8">
+                </text>历史记录
+                <image src="../../resources/zy-search/delete.svg" mode="aspectFit" class="data-v-a007e1a8" ></image>
+			</view>
+			<view class="list data-v-a007e1a8">
+				<block wx:for="{{allcatslist}}" wx:key="*this">
+					<view data-value="{{item}}" bindtap="searchinpute"  class="data-v-a007e1a8">{{item}}</view>
+				</block>
+			</view>
+		</view>
+	</block>
+	<view class="wanted-circle bg-white data-v-a007e1a8">
+		<view class="header data-v-a007e1a8">
+        <text class="cuIcon-title padding-right-sm text-red data-v-a007e1a8"></text>
+            猜你想搜的
+    </view>
+			<view class="list data-v-a007e1a8">
+				<block wx:for="{{catpostlist}}" wx:key="*this">
+					<view data-value="{{item}}"   bindtap="searchinpute" class="data-v-a007e1a8">{{item}}</view>
+				</block>
+			</view>
+		</view>
+</view>
